@@ -1,14 +1,14 @@
 /* Стили для index.html */
 
 /* Основной цвет #212121*/
-/* Цвет Заголовки #212121 */
+/* Цвет Заголовка #212121 */
 /* Цвет абзацов(описаний) #757575 */
 /* Цвет активных ссылок #2196F3 */
 
 /* Описание для Портфолио */
 body {
-  background-color: var(--primary-white-color);
   color: var(--main-text-color);
+  background-color: var(--primary-white-color);
 }
 
 :root {
@@ -18,6 +18,10 @@ body {
   --acent-color: #757575;
   --primary-white-color: #ffffff;
   --button-color: #2196f3;
+}
+
+.list {
+  list-style: none;
 }
 
 /* Logo */
