@@ -1,0 +1,65 @@
+/* Стили для index.html */
+
+/* Основной цвет #212121*/
+/* Цвет Заголовки #212121 */
+/* Цвет абзацов(описаний) #757575 */
+/* Цвет активных ссылок #2196F3 */
+
+/* Описание для Портфолио */
+body {
+  background-color: var(--primary-white-color);
+  color: var(--main-text-color);
+}
+
+:root {
+  --main-text-color: #212121;
+  --head-text-color: #212121;
+  --title-text-color: #212121;
+  --acent-color: #757575;
+  --primary-white-color: #ffffff;
+  --button-color: #2196f3;
+}
+
+/* Logo */
+
+.logo {
+  color: #2196f3;
+}
+/* Header */
+
+.site-nav .link {
+  color: #2196f3;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--main-text-color);
+}
+.site-nav .link.current {
+  color: var(--button-color);
+}
+
+/* Section */
+.section-title {
+  color: var(--main-text-color);
+}
+.section-title-p {
+  color: var(--acent-color);
+}
+
+/* Button */
+
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primary-white-color);
+}
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--main-text-color);
+  background: var(--button-color);
+}
+
+.button.secondary {
+  color: var(--main-text-color);
+  background-color: var(--primary-white-color);
+}
