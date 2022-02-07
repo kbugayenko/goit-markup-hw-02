@@ -7,17 +7,18 @@
 
 /* Описание для Портфолио */
 body {
-  color: var(--main-text-color);
   background-color: var(--primary-white-color);
+  color: var(--main-text-color);
+  font-family: Roboto, sans-serif;
+  font-style: 400;
 }
 
 :root {
   --main-text-color: #212121;
-  --head-text-color: #212121;
-  --title-text-color: #212121;
   --acent-color: #757575;
   --primary-white-color: #ffffff;
   --button-color: #2196f3;
+  --background-color: #2f303a;
 }
 
 .list {
@@ -27,18 +28,28 @@ body {
 /* Logo */
 
 .logo {
-  color: #2196f3;
+  color: var(--button-color);
+  font-family: Raleway, sans-serif;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
+.logo-studio {
+  color: var(--main-text-color);
+}
+
 /* Header */
 
 .site-nav .link {
-  color: #2196f3;
+  color: var(--main-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--main-text-color);
+  color: var(--button-color);
 }
+
 .site-nav .link.current {
   color: var(--button-color);
 }
@@ -54,7 +65,7 @@ body {
 /* Button */
 
 .button {
-  color: var(--title-text-color);
+  color: var(--main-text-color);
   background-color: var(--primary-white-color);
 }
 .button.primary {
@@ -67,14 +78,35 @@ body {
   color: var(--main-text-color);
   background-color: var(--primary-white-color);
 }
-.button.secondary {
-  color: var(--main-text-color);
+.link:active {
   background-color: var(--primary-white-color);
+  color: var(--main-text-color);
+  background: var(--button-color);
 }
+
+/* Adress */
+
+.adress .link,
+.adress-nav .link {
+  color: var(--acent-color);
+}
+.link:hover,
+.link:focus {
+  color: var(--button-color);
+}
+
+.adress-nav .link.current {
+  color: var(--button-color);
+}
+
+/*  */
 
 /* Описание Студия */
 
-.section-title .cap {
-  color: #ffffff;
-  background: #2f303a;
+.hero-title {
+  color: var(--primary-white-color);
+  background: var(--background-color);
+}
+
+.footer-adress {
 }
