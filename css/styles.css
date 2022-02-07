@@ -1,16 +1,18 @@
 /* Стили для index.html */
-
-/* Основной цвет #212121*/
+/* Основной цвет #212121 */
 /* Цвет Заголовка #212121 */
 /* Цвет абзацов(описаний) #757575 */
 /* Цвет активных ссылок #2196F3 */
+/* Цвет заливки секций  #2f303a */
+/* Цвет фона секции команда #F5F4FA */
+/* Цвет для кнопок при ховере #188CE8 */
 
-/* Описание для Портфолио */
 body {
   background-color: var(--primary-white-color);
   color: var(--main-text-color);
   font-family: Roboto, sans-serif;
   font-style: 400;
+  font-size: 14px;
 }
 
 :root {
@@ -19,10 +21,18 @@ body {
   --primary-white-color: #ffffff;
   --button-color: #2196f3;
   --background-color: #2f303a;
+  --background-button: #f5f4fa;
+  --background: #188ce8;
 }
 
 .list {
   list-style: none;
+}
+
+/*Link*/
+
+.link {
+  text-decoration: none;
 }
 
 /* Logo */
@@ -34,7 +44,9 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
+
 .logo-studio {
   color: var(--main-text-color);
 }
@@ -53,6 +65,42 @@ body {
 .site-nav .link.current {
   color: var(--button-color);
 }
+/* Описание Студия */
+
+/* Main */
+
+/* Hero */
+
+.hero-title {
+  color: var(--primary-white-color);
+  background: var(--background-color);
+
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  color: var(--primary-white-color);
+  background-color: var(--button-color);
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+/* Section bg */
+
+/* Описание для Портфолио */
 
 /* Section */
 .section-title {
@@ -66,27 +114,33 @@ body {
 
 .button {
   color: var(--main-text-color);
-  background-color: var(--primary-white-color);
-}
-.button.primary {
-  color: var(--primary-white-color);
-  background-color: var(--main-text-color);
-  background: var(--button-color);
-}
-.button.primary .button.primary:hover,
-.button.primary .button.primary:focus {
-  color: var(--main-text-color);
-  background-color: var(--primary-white-color);
-}
-.link:active {
-  background-color: var(--primary-white-color);
-  color: var(--main-text-color);
-  background: var(--button-color);
+  background-color: var(--background-button);
 }
 
+.project .button:active {
+  color: var(--primary-white-color);
+  background-color: var(--button-color);
+}
+.project .button:hover,
+.project .button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--button-color);
+}
+
+/* Team section */
+
+.team-item {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 1635px;
+
+  background: #ffffff;
+}
 /* Adress */
 
-.adress .link,
+.footer-adress .link,
 .adress-nav .link {
   color: var(--acent-color);
 }
@@ -99,14 +153,11 @@ body {
   color: var(--button-color);
 }
 
-/*  */
+/* Footer */
 
-/* Описание Студия */
-
-.hero-title {
-  color: var(--primary-white-color);
-  background: var(--background-color);
-}
-
-.footer-adress {
+.footer-adress .footer-adress-item {
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2208px;
 }
