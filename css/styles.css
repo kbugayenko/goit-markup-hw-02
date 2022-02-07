@@ -88,8 +88,8 @@ body {
 .hero-button {
   color: var(--primary-white-color);
   background-color: var(--button-color);
+  cursor: pointer;
   font-family: Roboto;
-  font-style: 400;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -98,6 +98,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 }
+/*  */
 /* Section bg */
 
 /* Описание для Портфолио */
@@ -115,7 +116,9 @@ body {
 .button {
   color: var(--main-text-color);
   background-color: var(--background-button);
+  cursor: pointer;
 }
+/* Section project */
 
 .project .button:active {
   color: var(--primary-white-color);
@@ -125,6 +128,50 @@ body {
 .project .button:focus {
   color: var(--primary-white-color);
   background-color: var(--button-color);
+}
+.project {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+/* 
+.section .section-project {
+  width: 370px;
+  height: 404px;
+  top: 262px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box; 
+}  */
+
+.project-tehno {
+  left: 215px;
+}
+.project-poster {
+  left: 615px;
+}
+.project-seafood {
+  left: 1015px;
+}
+.project-prime {
+  left: 1415px;
+}
+.project-boxes {
+  left: 1815px;
+}
+.project-borders {
+  left: 2215px;
+}
+.project-limit {
+  left: 2615px;
+}
+.project-lab {
+  left: 3015px;
+}
+.project-business {
+  left: 3415px;
 }
 
 /* Team section */
@@ -138,6 +185,7 @@ body {
 
   background: #ffffff;
 }
+
 /* Adress */
 
 .footer-adress .link,
