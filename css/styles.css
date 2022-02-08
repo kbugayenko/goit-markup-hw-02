@@ -108,9 +108,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
   text-align: center;
-  letter-spacing: 0.06em;
 }
 
 /* Особенности */
@@ -139,6 +137,10 @@ body {
 
 /* Team section */
 
+.team-list {
+  text-align: center;
+  width: 270px;
+}
 .team-title {
   font-size: 16px;
   line-height: 1.19;
@@ -191,6 +193,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   width: 370px;
+  text-align: center;
 }
 
 .project-descrip {
@@ -198,6 +201,7 @@ body {
   line-height: 1.87;
   color: var(--acent-color);
   width: 370px;
+  text-align: center;
 }
 
 /* Footer */
@@ -205,7 +209,6 @@ body {
 .footer {
   color: var(--primary-white-color);
   background-color: var(--background-color);
-  font-style: normal;
 }
 
 .footer-adress .link,
@@ -222,7 +225,8 @@ body {
 }
 
 .footer-adress {
-  line-height: 1.71;
   color: var(--primary-white-color);
   background-color: var(--background-color);
+  line-height: 1.71;
+  font-style: normal;
 }
