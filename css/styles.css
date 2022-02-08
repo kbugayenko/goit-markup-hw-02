@@ -156,6 +156,16 @@ body {
 
 /* Section project */
 
+.button {
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 .project .button:active {
   color: var(--primary-white-color);
   background-color: var(--button-color);
@@ -165,6 +175,10 @@ body {
 .project .button:focus {
   color: var(--primary-white-color);
   background-color: var(--button-color);
+}
+
+.section-project .link {
+  color: var(--main-text-color);
 }
 .project {
   font-weight: 500;
@@ -178,14 +192,14 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  width: 370px;
 }
 
 .project-descrip {
   font-size: 16px;
   line-height: 1.87;
-}
-.section-project .link {
-  color: var(--main-text-color);
+  color: var(--acent-color);
+  width: 370px;
 }
 
 /* Footer */
@@ -193,6 +207,7 @@ body {
 .footer {
   color: var(--primary-white-color);
   background-color: var(--background-color);
+  font-style: normal;
 }
 
 .footer-adress .link,
