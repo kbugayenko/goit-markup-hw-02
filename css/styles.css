@@ -222,7 +222,6 @@ body {
 }
 
 .footer-adress {
-  font-size: 14px;
   line-height: 1.71;
   color: var(--primary-white-color);
   background-color: var(--background-color);
