@@ -130,41 +130,6 @@ body {
   text-align: center;
 }
 
-.team-item .team-list {
-}
-
-/* Кнопки */
-
-.button {
-  color: var(--main-text-color);
-  background-color: var(--background-button);
-  cursor: pointer;
-  font-family: inherit;
-}
-
-/* Описание для Портфолио */
-
-/* Section project */
-
-.project .button:active {
-  color: var(--primary-white-color);
-  background-color: var(--button-color);
-}
-.project .button:hover,
-.project .button:focus {
-  color: var(--primary-white-color);
-  background-color: var(--button-color);
-}
-.project {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-}
-
-.project-descrip {
-  font-size: 16px;
-  line-height: 1.87;
-}
 /* Чем мы занимаемся*/
 
 /* Team section */
@@ -180,7 +145,38 @@ body {
   line-height: 1.14;
 }
 
+/* Описание для Портфолио */
+
+/* Section project */
+
+.project .button:active {
+  color: var(--primary-white-color);
+  background-color: var(--button-color);
+}
+
+.project .button:hover,
+.project .button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--button-color);
+}
+
+.project {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.project-descrip {
+  font-size: 16px;
+  line-height: 1.87;
+}
+
 /* Footer */
+
+.footer {
+  color: var(--primary-white-color);
+  background-color: var(--background-color);
+}
 
 .footer-adress .link,
 .adress-nav .link {
