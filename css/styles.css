@@ -7,13 +7,7 @@
 /* Цвет фона секции команда #F5F4FA */
 /* Цвет для кнопок при ховере #188CE8 */
 
-body {
-  background-color: var(--primary-white-color);
-  color: var(--main-text-color);
-  font-family: Roboto, sans-serif;
-  font-style: 400;
-  font-size: 14px;
-}
+/* Описание Студия */
 
 :root {
   --main-text-color: #212121;
@@ -23,6 +17,16 @@ body {
   --background-color: #2f303a;
   --background-button: #f5f4fa;
   --background: #188ce8;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--main-text-color);
+  font-family: Roboto, sans-serif;
+  font-style: 400;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -53,6 +57,13 @@ body {
 
 /* Header */
 
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.02em;
+}
+
 .site-nav .link {
   color: var(--main-text-color);
 }
@@ -65,18 +76,20 @@ body {
 .site-nav .link.current {
   color: var(--button-color);
 }
-/* Описание Студия */
+
+.adress-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.02em;
+}
 
 /* Main */
-
 /* Hero */
 
 .hero-title {
   color: var(--primary-white-color);
   background: var(--background-color);
-
-  font-family: Roboto;
-  font-style: 400;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -89,35 +102,48 @@ body {
   color: var(--primary-white-color);
   background-color: var(--button-color);
   cursor: pointer;
-  font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
 }
-/*  */
-/* Section bg */
+/* Особенности */
 
-/* Описание для Портфолио */
+.futuries-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
 
-/* Section */
+.futuries-title-p {
+  color: var(--acent-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Секции и абзацы*/
 .section-title {
   color: var(--main-text-color);
-}
-.section-title-p {
-  color: var(--acent-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
-/* Button */
+.team-item .team-list {
+}
+
+/* Кнопки */
 
 .button {
   color: var(--main-text-color);
   background-color: var(--background-button);
   cursor: pointer;
+  font-family: inherit;
 }
+
+/* Описание для Портфолио */
+
 /* Section project */
 
 .project .button:active {
@@ -133,60 +159,28 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  letter-spacing: 0.03em;
 }
-/* 
-.section .section-project {
-  width: 370px;
-  height: 404px;
-  top: 262px;
 
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box; 
-}  */
-
-.project-tehno {
-  left: 215px;
+.project-descrip {
+  font-size: 16px;
+  line-height: 1.87;
 }
-.project-poster {
-  left: 615px;
-}
-.project-seafood {
-  left: 1015px;
-}
-.project-prime {
-  left: 1415px;
-}
-.project-boxes {
-  left: 1815px;
-}
-.project-borders {
-  left: 2215px;
-}
-.project-limit {
-  left: 2615px;
-}
-.project-lab {
-  left: 3015px;
-}
-.project-business {
-  left: 3415px;
-}
+/* Чем мы занимаемся*/
 
 /* Team section */
 
-.team-item {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 215px;
-  top: 1635px;
-
-  background: #ffffff;
+.team-title {
+  font-size: 16px;
+  line-height: 1.19;
 }
 
-/* Adress */
+.team-descrip {
+  color: var(--acent-color);
+  font-size: 16px;
+  line-height: 1.14;
+}
+
+/* Footer */
 
 .footer-adress .link,
 .adress-nav .link {
@@ -201,11 +195,9 @@ body {
   color: var(--button-color);
 }
 
-/* Footer */
-
-.footer-adress .footer-adress-item {
-  width: 231px;
-  height: 21px;
-  left: 215px;
-  top: 2208px;
+.footer-adress {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--primary-white-color);
+  background-color: var(--background-color);
 }
