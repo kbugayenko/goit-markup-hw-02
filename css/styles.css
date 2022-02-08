@@ -87,9 +87,12 @@ body {
 /* Main */
 /* Hero */
 
+.hero {
+  background-color: var(--background-color);
+}
+
 .hero-title {
   color: var(--primary-white-color);
-  background: var(--background-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -105,7 +108,11 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  display: flex;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
+
 /* Особенности */
 
 .futuries-title {
@@ -159,16 +166,26 @@ body {
   color: var(--primary-white-color);
   background-color: var(--button-color);
 }
-
 .project {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  text-align: center;
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .project-descrip {
   font-size: 16px;
   line-height: 1.87;
+}
+.section-project .link {
+  color: var(--main-text-color);
 }
 
 /* Footer */
