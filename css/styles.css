@@ -110,18 +110,10 @@ body {
   line-height: 1.87;
   text-align: center;
 }
-
-/* Особенности */
-
-.futuries-title {
-  font-weight: 700;
-  line-height: 1.14;
-  text-transform: uppercase;
-}
-
-.futuries-title-p {
-  color: var(--acent-color);
-  line-height: 1.71;
+.hero-button .hero-button:hover,
+.hero-button .hero-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--background);
 }
 
 /* Секции и абзацы*/
@@ -133,15 +125,35 @@ body {
   text-align: center;
 }
 
+/* Особенности */
+
+.futuries-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.futuries-title-p {
+  color: var(--acent-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
 /* Чем мы занимаемся*/
 
 /* Team section */
-
+.section-team {
+  background-color: var(--background-button);
+}
 .team-list {
+  background-color: var(--primary-white-color);
   text-align: center;
   width: 270px;
+  height: 368px;
 }
 .team-title {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
@@ -164,6 +176,7 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  background-color: var(--background-button);
 }
 
 .project .button:active {
@@ -211,7 +224,10 @@ body {
   background-color: var(--background-color);
 }
 
-.footer-adress .link,
+.footer-adress .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .adress-nav .link {
   color: var(--acent-color);
 }
